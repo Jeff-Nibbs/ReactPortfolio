@@ -6,7 +6,6 @@ import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from "react";
-import { act } from "react-dom/test-utils";
 
 function Nav() {
   const [activeNav, setActiveNav] = useState("#header");
