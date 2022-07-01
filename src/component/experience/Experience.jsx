@@ -46,6 +46,12 @@ function Experience() {
               <BsPatchCheckFill className="experience__details-icon" />
               <h4>Python</h4>
             </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Node.js</h4>
+              </div>
+            </article>
           </div>
         </div>
       </div>
