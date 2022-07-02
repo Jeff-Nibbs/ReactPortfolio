@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
+import IMG1 from "../../assets/sous-chef-helper.png";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
@@ -12,8 +12,8 @@ const data = [
     id: 1,
     image: IMG1,
     title: "Project 1",
-    github: "https://github.com",
-    demo: "https://www.youtube.com/",
+    github: "https://github.com/Jeff-Nibbs/sous-chef-helper",
+    demo: "https://jeff-nibbs.github.io/sous-chef-helper/",
   },
   {
     id: 2,
@@ -55,7 +55,7 @@ const data = [
 function Portfolio() {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
+      <h4>My Recent Work</h4>
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">

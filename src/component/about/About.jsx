@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/me2-about.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -8,7 +8,7 @@ import { VscFolderLibrary } from "react-icons/vsc";
 function About() {
   return (
     <section id="about">
-      <h5>Get To Know</h5>
+      <h4>Get To Know</h4>
       <h2>About Me</h2>
 
       <div className="container about__container">
@@ -23,24 +23,22 @@ function About() {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>1 Year</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>300+ Clients Worldwide</small>
+              <small>Top Priority</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Project</h5>
-              <small>80+ Completed</small>
+              <h5>Projects</h5>
+              <small>30+ Completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque
-            officiis sapiente illo fugiat rem. Ea fugit sequi consectetur nemo
-            in perferendis voluptas unde laborum neque earum, odit dolorem ad
-            rerum.
+            I’m a web developer specializing in helping businesses build
+            exceptional digital solutions.
           </p>
           <a href="#contact" className="btn btn-primary">
             Lets Talk
