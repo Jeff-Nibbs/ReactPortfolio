@@ -1,8 +1,8 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/sous-chef-helper.png";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
+import IMG2 from "../../assets/front-sass.png";
+import IMG3 from "../../assets/loan-calculator.png";
 import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.jpg";
@@ -11,44 +11,23 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Project 1",
+    title: "Sous-Chef Helper",
     github: "https://github.com/Jeff-Nibbs/sous-chef-helper",
     demo: "https://jeff-nibbs.github.io/sous-chef-helper/",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Project 2",
-    github: "https://github.com",
-    demo: "https://www.youtube.com/",
+    title: "Front",
+    github: "https://github.com/Jeff-Nibbs/Front-sass-page",
+    demo: "https://jeff-nibbs.github.io/Front-sass-page/",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Project 3",
-    github: "https://github.com",
-    demo: "https://www.youtube.com/",
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: "Project 4",
-    github: "https://github.com",
-    demo: "https://www.youtube.com/",
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: "Project 5",
-    github: "https://github.com",
-    demo: "https://www.youtube.com/",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Project 6",
-    github: "https://github.com",
-    demo: "https://www.youtube.com/",
+    title: "Loan Calculator",
+    github: "https://github.com/Jeff-Nibbs/loan-calulator.git",
+    demo: "https://loan-calulator.vercel.app/",
   },
 ];
 
