@@ -1,10 +1,10 @@
 import React from "react";
 import "./testimonials.css";
 
-import AVTR1 from "../../assets/avatar1.jpg";
-import AVTR2 from "../../assets/avatar2.jpg";
-import AVTR3 from "../../assets/avatar3.jpg";
-import AVTR4 from "../../assets/avatar4.jpg";
+import AVTR1 from "../../assets/eli.JPG";
+import AVTR2 from "../../assets/ben.JPG";
+import AVTR3 from "../../assets/britt.jpg";
+import AVTR4 from "../../assets/levi.png";
 
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -15,27 +15,26 @@ import "swiper/css/pagination";
 const data = [
   {
     avatar: AVTR1,
-    name: "Tina Snow",
+    name: "Elijah Yang",
     review:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit commodi laborum provident sapiente maiores rem natus ipsa aliquid molestias iusto quae quibusdam explicabo temporibus officiis odio, maxime dolor amet atque!",
+      "Daniel did a fantastic job!! Very communicative, completed the project quickly and accurately. He went above and beyond what was expected in the scope of the job. I would absolutely recommend and will be hiring Daniel again in the future!",
   },
   {
     avatar: AVTR2,
-    name: "Shatta Wale",
+    name: "Benjamin Wagner",
     review:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit commodi laborum provident sapiente maiores rem natus ipsa aliquid molestias iusto quae quibusdam explicabo temporibus officiis odio, maxime dolor amet atque!",
+      "Fantastic experience working with Daniel. Great communication, and very prompt delivery. Will absolutely work with him again!",
   },
   {
     avatar: AVTR3,
-    name: "Kwame Despite",
+    name: "Brittany Lawson",
     review:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit commodi laborum provident sapiente maiores rem natus ipsa aliquid molestias iusto quae quibusdam explicabo temporibus officiis odio, maxime dolor amet atque!",
+      "Excellent developer with an eye for detail and design. Super responsive, very fast, couldn't be happier with the work.",
   },
   {
     avatar: AVTR4,
-    name: "Nana Ama McBrown",
-    review:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit commodi laborum provident sapiente maiores rem natus ipsa aliquid molestias iusto quae quibusdam explicabo temporibus officiis odio, maxime dolor amet atque!",
+    name: "Levi Baker",
+    review: "Excellent work and fast.",
   },
 ];
 
