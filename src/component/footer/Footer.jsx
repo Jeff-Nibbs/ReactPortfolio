@@ -1,8 +1,8 @@
 import React from "react";
 import "./footer.css";
-import { FaFacebookF } from "react-icons/fa";
-import { FiInstagram } from "react-icons/fi";
-import { IoLogoTwitter } from "react-icons/io";
+import { BsLinkedin } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
+import { BsWhatsapp } from "react-icons/bs";
 
 function Footer() {
   return (
@@ -33,14 +33,26 @@ function Footer() {
       </ul>
 
       <div className="footer__socials">
-        <a href="">
-          <FaFacebookF />
+        <a
+          href="https://github.com/Jeff-Nibbs"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <FaGithub />
         </a>
-        <a href="">
-          <FiInstagram />
+        <a
+          href="https://www.linkedin.com/in/daniel-nibbs/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <BsLinkedin />
         </a>
-        <a href="">
-          <IoLogoTwitter />
+        <a
+          href="https://api.whatsapp.com/send?phone=15305379469"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <BsWhatsapp />
         </a>
       </div>
 
