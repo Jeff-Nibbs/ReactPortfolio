@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/sous-chef-helper.png";
-import IMG2 from "../../assets/front-sass.png";
+import IMG2 from "../../assets/dn-site.png";
 import IMG3 from "../../assets/loan-calculator.png";
 
 const data = [
@@ -15,7 +15,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "Front",
+    title: "Design",
     github: "https://github.com/Jeff-Nibbs/Front-sass-page",
     demo: "https://jeff-nibbs.github.io/Front-sass-page/",
   },
